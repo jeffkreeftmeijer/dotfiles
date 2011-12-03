@@ -38,6 +38,7 @@ set nofoldenable
 " Drag single lines
 nmap <C-k> [e
 nmap <C-j> ]e
+
 " Drag multiple lines
 vmap <C-k> [egv
 vmap <C-j> ]egv

@@ -6,3 +6,6 @@ colorscheme railscasts
 
 " Switch to fullscreen when opening MacVim
 set fu
+
+" Use the OSX clipboard
+set clipboard=unnamed
