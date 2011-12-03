@@ -10,9 +10,6 @@ autocmd BufWritePre * :%s/\s\+$//e
 " Automagically clean up XML files
 au FileType xml exe ":silent 1,$!xmllint --format --recover - 2>/dev/null"
 
-" No OSX dialogs, use Vim's built in ones
-set go+=c
-
 " Automatically resize splits (using ^W=) when resizing the window
 autocmd VimResized * wincmd =
 set splitright
