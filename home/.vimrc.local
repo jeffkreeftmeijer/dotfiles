@@ -22,8 +22,6 @@ map <leader>gh :CommandTFlush<cr>\|:CommandT app/helpers<cr>
 map <leader>ga :CommandTFlush<cr>\|:CommandT app/assets<cr>
 map <leader>gl :CommandTFlush<cr>\|:CommandT lib<cr>
 map <leader>gs :CommandTFlush<cr>\|:CommandT spec<cr>
-map <leader>gsa :CommandTFlush<cr>\|:CommandT spec/acceptance<cr>
-map <leader>gsm :CommandTFlush<cr>\|:CommandT spec/models<cr>
 
 " Tags
 set tags=./tags;$HOME
