@@ -40,3 +40,9 @@ map <leader>gh :CommandTFlush<cr>\|:CommandT app/helpers<cr>
 map <leader>ga :CommandTFlush<cr>\|:CommandT app/assets<cr>
 map <leader>gl :CommandTFlush<cr>\|:CommandT lib<cr>
 map <leader>gs :CommandTFlush<cr>\|:CommandT spec<cr>
+
+" Unimpaired line bubbling
+nmap <C-k> [e
+nmap <C-j> ]e
+vmap <C-k> [egv
+vmap <C-j> ]egv
