@@ -42,6 +42,9 @@ nnoremap <leader><leader> <c-^>
 " Clear trailing whitespace on save
 autocmd BufWritePre * :%s/\s\+$//e
 
+" <Leader>a for :Ack
+nnoremap <leader>a :Ack<space>
+
 " Command-T subdirs
 map <leader>gv :CommandTFlush<cr>\|:CommandT app/views<cr>
 map <leader>gc :CommandTFlush<cr>\|:CommandT app/controllers<cr>
