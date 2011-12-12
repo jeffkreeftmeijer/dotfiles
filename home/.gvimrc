@@ -15,3 +15,6 @@ set fu
 
 " No OSX dialogs, use Vim's built in ones
 set go+=c
+
+" Use the OSX clipboard
+set clipboard=unnamed
