@@ -28,3 +28,6 @@ let mapleader = ","
 
 " Use double-leader to jump to last file
 nnoremap <leader><leader> <c-^>
+
+" Clear trailing whitespace on save
+autocmd BufWritePre * :%s/\s\+$//e
