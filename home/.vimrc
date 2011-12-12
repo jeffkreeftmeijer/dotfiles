@@ -3,22 +3,32 @@ call pathogen#infect()
 
 set nocompatible
 syntax enable
+set ruler
 set number                      " show line numbers
 set encoding=utf-8
 set showcmd                     " display incomplete commands
 filetype plugin indent on       " load file type plugins + indentation
+set hidden
+set wildmenu
+set wildmode=list:longest
+set cursorline
+set visualbell                  " Sssshh!
+set ttyfast
+set laststatus=2
 
 "" Whitespace
 set nowrap                      " don't wrap lines
 set tabstop=2 shiftwidth=2      " a tab is two spaces
 set expandtab                   " use spaces, not tabs
 set backspace=indent,eol,start  " backspace through everything in insert mode
+set autoindent                  " automatically indent
 
 "" Searching
 set hlsearch                    " highlight matches
 set incsearch                   " incremental searching
 set ignorecase                  " searches are case insensitive...
 set smartcase                   " ... unless they contain at least one capital letter
+set scrolloff=3                 " don't show search results as the first line
 
 " Thorfile, Rakefile, Vagrantfile and Gemfile are Ruby
 au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,config.ru} set ft=ruby
