@@ -1,3 +1,9 @@
+" Font
+set guifont=Bitstream\ Vera\ Sans\ Mono:h14
+
+" Color scheme
+colorscheme railscasts+
+
 " Command-Return for fullscreen
 macmenu Window.Toggle\ Full\ Screen\ Mode key=<D-CR>
 
