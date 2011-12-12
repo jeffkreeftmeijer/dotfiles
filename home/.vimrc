@@ -3,6 +3,7 @@ call pathogen#infect()
 
 set nocompatible
 syntax enable
+set number                      " show line numbers
 set encoding=utf-8
 set showcmd                     " display incomplete commands
 filetype plugin indent on       " load file type plugins + indentation
