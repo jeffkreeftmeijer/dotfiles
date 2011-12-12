@@ -25,3 +25,5 @@ au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,config.ru} set ft=r
 " Leader
 let mapleader = ","
 
+" Use double-leader to jump to last file
+nnoremap <leader><leader> <c-^>
