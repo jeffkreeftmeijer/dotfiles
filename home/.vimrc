@@ -73,3 +73,6 @@ inoremap <up> <nop>
 inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
+
+" Quick vertical split
+nnoremap <leader>w <C-w>v<C-w>l
