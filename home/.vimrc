@@ -37,6 +37,10 @@ set directory=~/.vim/backup
 " Thorfile, Rakefile, Vagrantfile and Gemfile are Ruby
 au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,config.ru} set ft=ruby
 
+" Commands can be executed with capital letters
+command W w
+command Q q
+
 " Leader
 let mapleader = ","
 
