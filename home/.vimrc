@@ -15,6 +15,7 @@ set cursorline
 set visualbell                  " Sssshh!
 set ttyfast
 set laststatus=2
+set splitright
 
 "" Whitespace
 set nowrap                      " don't wrap lines
@@ -79,7 +80,7 @@ inoremap <left> <nop>
 inoremap <right> <nop>
 
 " Quick vertical split
-nnoremap <leader>w <C-w>v<C-w>l
+nnoremap <leader>w <C-w>v
 
 " Switch splits with <C-h> & <C-l>
 nnoremap <C-h> <C-w>h
