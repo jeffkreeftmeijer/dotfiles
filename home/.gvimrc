@@ -1,5 +1,6 @@
 " Font
-set guifont=Bitstream\ Vera\ Sans\ Mono:h14
+set guifont=Bitstream\ Vera\ Sans\ Mono:h13
+set linespace=4
 
 " Color scheme
 colorscheme railscasts+
