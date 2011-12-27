@@ -1,21 +1,23 @@
 " Vim color scheme
 "
-" Name:        railscast.vim
-" Maintainer:  Josh O'Rourke <jorourke23@gmail.com> 
+" Name:        railscat.vim
+" Maintainer:  Jeff Kreeftmeijer
 " License:     public domain
 "
-" A GUI Only port of the RailsCasts TextMate theme [1] to Vim.
-" Some parts of this theme were borrowed from the well-documented Lucius theme [2].
-" 
-" [1] http://railscasts.com/about 
-" [2] http://www.vim.org/scripts/script.php?script_id=2536
+" A GUI only extended version of the Railscasts+ theme, that comes with
+" Janus [1] and is, in turn, an extension to the original Railscasts theme
+" [2], which is a port of the RailsCasts TextMate theme [3] to Vim.
+"
+" [1] https://github.com/carlhuda/janus
+" [2] http://www.vim.org/scripts/script.php?script_id=2175
+" [3] http://railscasts.com/about
 
 set background=dark
 hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name = "railscasts"
+let g:colors_name = "railscat"
 
 " Colors
 " Brown        #BC9458
@@ -28,9 +30,9 @@ let g:colors_name = "railscasts"
 
 hi Normal                    guifg=#E6E1DC guibg=#2B2B2B
 hi Cursor                    guibg=#FFFFFF
-hi CursorLine                guibg=#333435
-hi LineNr                    guifg=#888888 guibg=#DEDEDE
+hi CursorLine                guibg=#262626
 hi Search                    guibg=#5A647E
+hi LineNr                    guifg=#888888 guibg=#DEDEDE
 hi Visual                    guibg=#5A647E
 
 " Folds
@@ -53,7 +55,6 @@ hi PmenuSel                  guifg=#000000 guibg=#A5C261 gui=NONE
 hi PMenuSbar                 guibg=#5A647E gui=NONE
 " thumb of the scrollbar in the popup
 hi PMenuThumb                guibg=#AAAAAA gui=NONE
-
 
 "rubyComment
 hi Comment                   guifg=#BC9458 gui=italic
@@ -122,3 +123,14 @@ hi link htmlEndTag           xmlEndTag
 hi xmlTag                    guifg=#E8BF6A
 hi xmlTagName                guifg=#E8BF6A
 hi xmlEndTag                 guifg=#E8BF6A
+
+set fillchars=vert:\ 
+set fillchars=stl:\ 
+set fillchars=stlnc:\ 
+
+hi  StatusLine   guibg=#cccccc guifg=#000000
+hi  StatusLineNC guibg=#666666 guifg=#333333
+hi  CursorLine   guibg=#262626
+hi  VertSplit    guifg=#262626
+hi  ColorColumn  guibg=#262626
+hi  LineNr       guifg=#666666 guibg=#333333

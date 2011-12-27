@@ -3,7 +3,7 @@ set guifont=Bitstream\ Vera\ Sans\ Mono:h13
 set linespace=4
 
 " Color scheme
-colorscheme railscasts+
+colorscheme railscat
 
 " Start without the toolbar
 set guioptions-=T
