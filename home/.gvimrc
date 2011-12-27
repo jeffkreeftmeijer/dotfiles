@@ -7,6 +7,8 @@ colorscheme railscat
 
 " Start without the toolbar
 set guioptions-=T
+set guioptions-=r
+set guioptions-=L
 
 " Switch to fullscreen when opening MacVim
 set fu
