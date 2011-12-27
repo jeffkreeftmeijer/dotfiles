@@ -4,7 +4,7 @@ call pathogen#infect()
 set nocompatible
 syntax enable
 set ruler
-set number                      " show line numbers
+set relativenumber              " show line numbers
 set encoding=utf-8
 set showcmd                     " display incomplete commands
 filetype plugin indent on       " load file type plugins + indentation
@@ -85,3 +85,13 @@ nnoremap <leader>w <C-w>v
 " Switch splits with <C-h> & <C-l>
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
+
+function! NumberToggle()
+	if(&rnu == 1)
+		set number
+	else
+		set relativenumber
+	endif
+endfunc
+
+nnoremap <C-n> :call NumberToggle()<cr>
