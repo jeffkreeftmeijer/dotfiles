@@ -128,9 +128,10 @@ set fillchars=vert:\
 set fillchars=stl:\ 
 set fillchars=stlnc:\ 
 
-hi  StatusLine   guibg=#cccccc guifg=#000000
-hi  StatusLineNC guibg=#666666 guifg=#333333
-hi  CursorLine   guibg=#262626
-hi  VertSplit    guifg=#262626
-hi  ColorColumn  guibg=#262626
-hi  LineNr       guifg=#666666 guibg=#333333
+hi StatusLine   guibg=#cccccc guifg=#000000
+hi StatusLineNC guibg=#666666 guifg=#333333
+hi CursorLine   guibg=#262626
+hi VertSplit    guifg=#262626
+hi ColorColumn  guibg=#262626
+hi LineNr       guifg=#666666 guibg=#333333
+hi NonText      guifg=#666666
