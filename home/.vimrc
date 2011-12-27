@@ -16,6 +16,7 @@ set visualbell                  " Sssshh!
 set ttyfast
 set laststatus=2
 set splitright
+set colorcolumn=80
 
 "" Whitespace
 set nowrap                      " don't wrap lines
