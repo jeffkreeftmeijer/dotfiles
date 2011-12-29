@@ -86,6 +86,7 @@ nnoremap <leader>w <C-w>v
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
 
+" Toggle from number to relativenumber with <C-n>
 function! NumberToggle()
 	if(&rnu == 1)
 		set number
