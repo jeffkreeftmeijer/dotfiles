@@ -1,0 +1,3 @@
+[submodule "home/.vim/colors"]
+	path = home/.vim/colors
+	url = git://gist.github.com/1523432
