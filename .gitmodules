@@ -1,3 +1,6 @@
 [submodule "home/.vim/colors"]
 	path = home/.vim/colors
 	url = git://gist.github.com/1523432
+[submodule "home/.vim/bundle/syntastic"]
+	path = home/.vim/bundle/syntastic
+	url = git://github.com/scrooloose/syntastic.git

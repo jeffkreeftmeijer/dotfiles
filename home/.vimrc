@@ -96,3 +96,6 @@ function! NumberToggle()
 endfunc
 
 nnoremap <C-n> :call NumberToggle()<cr>
+
+" Use ,e to show Syntastic's :Error split
+map <leader>e :Errors<cr>
