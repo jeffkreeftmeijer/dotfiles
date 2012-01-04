@@ -39,7 +39,13 @@ set directory=~/.vim/backup
 " Thorfile, Rakefile, Vagrantfile and Gemfile are Ruby
 au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,config.ru} set ft=ruby
 
+" Clear trailing whitespace on save
+autocmd BufWritePre * :%s/\s\+$//e
+
+" Map <space> to :
 nnoremap <space> :
+
+" Use double-<space> to save the file
 nnoremap <space><space> :w<cr>
 
 " Leader
@@ -48,54 +54,11 @@ let mapleader = ","
 " Use double-leader to jump to last file
 nnoremap <leader><leader> <c-^>
 
-" Clear trailing whitespace on save
-autocmd BufWritePre * :%s/\s\+$//e
-
-" <Leader>a for :Ack
-nnoremap <leader>a :Ack<space>
-
-" Command-T subdirs
-map <leader>gv :CommandTFlush<cr>\|:CommandT app/views<cr>
-map <leader>gc :CommandTFlush<cr>\|:CommandT app/controllers<cr>
-map <leader>gm :CommandTFlush<cr>\|:CommandT app/models<cr>
-map <leader>gh :CommandTFlush<cr>\|:CommandT app/helpers<cr>
-map <leader>ga :CommandTFlush<cr>\|:CommandT app/assets<cr>
-map <leader>gl :CommandTFlush<cr>\|:CommandT lib<cr>
-map <leader>gs :CommandTFlush<cr>\|:CommandT spec<cr>
-
-" Unimpaired line bubbling
-nmap <C-k> [e
-nmap <C-j> ]e
-vmap <C-k> [egv
-vmap <C-j> ]egv
-
-" hjkl bootcamp
-nnoremap <up> <nop>
-nnoremap <down> <nop>
-nnoremap <left> <nop>
-nnoremap <right> <nop>
-inoremap <up> <nop>
-inoremap <down> <nop>
-inoremap <left> <nop>
-inoremap <right> <nop>
-
-" Quick vertical split
-nnoremap <leader>w <C-w>v
-
-" Switch splits with <C-h> & <C-l>
-nnoremap <C-h> <C-w>h
-nnoremap <C-l> <C-w>l
-
-" Toggle from number to relativenumber with <C-n>
-function! NumberToggle()
-	if(&rnu == 1)
-		set number
-	else
-		set relativenumber
-	endif
-endfunc
-
-nnoremap <C-n> :call NumberToggle()<cr>
-
-" Use ,e to show Syntastic's :Error split
-map <leader>e :Errors<cr>
+source ~/.vim/rc/ack.vim
+source ~/.vim/rc/command_t.vim
+source ~/.vim/rc/hjkl.vim
+source ~/.vim/rc/number_toggle.vim
+source ~/.vim/rc/replace_paste.vim
+source ~/.vim/rc/splits.vim
+source ~/.vim/rc/syntastic.vim
+source ~/.vim/rc/unimpaired.vim
