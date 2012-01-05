@@ -1,4 +1,4 @@
-"Pathogen
+" Load plugins from the bundle directory
 call pathogen#infect()
 
 set nocompatible
@@ -54,11 +54,5 @@ let mapleader = ","
 " Use double-leader to jump to last file
 nnoremap <leader><leader> <c-^>
 
-source ~/.vim/rc/ack.vim
-source ~/.vim/rc/command_t.vim
-source ~/.vim/rc/hjkl.vim
-source ~/.vim/rc/number_toggle.vim
-source ~/.vim/rc/replace_paste.vim
-source ~/.vim/rc/splits.vim
-source ~/.vim/rc/syntastic.vim
-source ~/.vim/rc/unimpaired.vim
+" Load settings from the rc directory
+call pathogen#infect('rc')
