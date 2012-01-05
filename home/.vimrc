@@ -1,4 +1,5 @@
 " Load plugins from the bundle directory
+runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
 set nocompatible
