@@ -56,7 +56,7 @@ let mapleader = ","
 nnoremap <leader><leader> <c-^>
 
 source ~/.vim/rc/ack.vim
-source ~/.vim/rc/command_t.vim
+source ~/.vim/rc/ctrlp.vim
 source ~/.vim/rc/hjkl.vim
 source ~/.vim/rc/number_toggle.vim
 source ~/.vim/rc/replace_paste.vim
