@@ -1,8 +1,4 @@
-" hjkl bootcamp
-nnoremap <up> <nop>
-nnoremap <down> <nop>
-nnoremap <left> <nop>
-nnoremap <right> <nop>
+" Don't move around in insert mode
 inoremap <up> <nop>
 inoremap <down> <nop>
 inoremap <left> <nop>
