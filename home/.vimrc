@@ -40,6 +40,9 @@ set directory=~/.vim/backup
 " Thorfile, Rakefile, Vagrantfile and Gemfile are Ruby
 au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,config.ru} set ft=ruby
 
+" Ignore the .git directory
+set wildignore+=.git
+
 " Clear trailing whitespace on save
 autocmd BufWritePre * :%s/\s\+$//e
 
