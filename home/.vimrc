@@ -37,8 +37,8 @@ set scrolloff=3                 " don't show search results as the first line
 set backupdir=~/.vim/backup
 set directory=~/.vim/backup
 
-" Thorfile, Rakefile, Vagrantfile and Gemfile are Ruby
-au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,config.ru} set ft=ruby
+" Crazy ruby files without .rb extensions
+au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,config.ru,.kick} set ft=ruby
 
 " Ignore the .git directory
 set wildignore+=.git
