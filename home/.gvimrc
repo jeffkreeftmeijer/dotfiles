@@ -10,9 +10,6 @@ set guioptions-=T
 set guioptions-=r
 set guioptions-=L
 
-" Switch to fullscreen when opening MacVim
-set fu
-
 " No OSX dialogs, use Vim's built in ones
 set go+=c
 
