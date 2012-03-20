@@ -43,9 +43,6 @@ au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,Podfile,config.ru,.
 " Ignore the .git directory
 set wildignore+=.git
 
-" Clear trailing whitespace on save
-autocmd BufWritePre * :%s/\s\+$//e
-
 " Map <space> to :
 nnoremap <space> :
 
