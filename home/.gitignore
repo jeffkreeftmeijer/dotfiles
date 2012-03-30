@@ -1,0 +1,4 @@
+# To set this up as your global .gitignore:
+#     $ git config --global core.excludesfile ~/.gitignore
+
+.rvmrc
