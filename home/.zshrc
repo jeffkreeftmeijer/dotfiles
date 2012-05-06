@@ -32,6 +32,3 @@ ZSH_THEME="robbyrussell"
 plugins=(git osx ruby)
 
 source $ZSH/oh-my-zsh.sh
-
-# RVM
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
