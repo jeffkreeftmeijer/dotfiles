@@ -40,3 +40,6 @@
 [submodule "home/.vim/bundle/railscat/colors"]
 	path = home/.vim/bundle/railscat/colors
 	url = git@gist.github.com:1523432.git
+[submodule "home/.vim/bundle/solarized"]
+	path = home/.vim/bundle/solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
