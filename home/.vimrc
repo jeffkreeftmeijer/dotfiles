@@ -19,6 +19,10 @@ set laststatus=2
 set splitright
 set colorcolumn=80
 
+"" Colorscheme
+set background=light
+colorscheme solarized
+
 "" Whitespace
 set nowrap                      " don't wrap lines
 set tabstop=2 shiftwidth=2      " a tab is two spaces
