@@ -22,6 +22,7 @@ set colorcolumn=80
 "" Colorscheme
 set background=light
 colorscheme solarized
+let g:solarized_diffmode="high"
 
 "" Whitespace
 set nowrap                      " don't wrap lines
