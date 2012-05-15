@@ -38,7 +38,7 @@ set backupdir=~/.vim/backup
 set directory=~/.vim/backup
 
 " Crazy ruby files without .rb extensions
-au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,Podfile,config.ru,.kick} set ft=ruby
+au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,Podfile,Isolate,config.ru,.kick} set ft=ruby
 
 " Ignore the .git directory
 set wildignore+=.git
