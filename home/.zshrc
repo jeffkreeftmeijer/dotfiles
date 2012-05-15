@@ -1,7 +1,7 @@
 # oh-my-zsh
 ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="blinks"
-plugins=(git osx ruby)
+plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # rbenv
