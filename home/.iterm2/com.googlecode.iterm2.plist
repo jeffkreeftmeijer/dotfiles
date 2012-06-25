@@ -499,8 +499,14 @@
 	<true/>
 	<key>MaxVertically</key>
 	<true/>
+	<key>NSColorPanelMode</key>
+	<string>6</string>
+	<key>NSFontPanelAttributes</key>
+	<string>1, 0</string>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/opensource/dotfiles/home</string>
+	<string>~/Desktop</string>
+	<key>NSNavPanelExpandedSizeForOpenMode</key>
+	<string>{958, 774}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -516,20 +522,22 @@
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErATGG
 		</data>
-		<string>302</string>
+		<string>183</string>
 	</array>
 	<key>NSTableView Hidden Columns KeyBingingTable</key>
 	<array/>
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
 	<array/>
-	<key>NSWindow Frame NSFontPanel</key>
-	<string>631 402 445 270 0 0 2560 1418 </string>
+	<key>NSWindow Frame NSColorPanel</key>
+	<string>427 410 214 309 0 0 1920 1178 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>662 472 924 485 0 0 2560 1418 </string>
+	<string>167 192 924 485 0 0 1280 778 </string>
+	<key>NSWindow Frame UKCrashReporter</key>
+	<string>80 194 592 584 0 0 1280 778 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>377 190 650 426 0 0 2560 1440 </string>
+	<string>0 0 1280 800 0 0 1280 778 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>419 144 570 451 0 0 2560 1418 </string>
+	<string>272 40 665 426 0 0 1920 1058 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1200,7 +1208,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/jeff/.iterm2</string>
+	<string>~/.iterm2</string>
 	<key>PromptOnQuit</key>
 	<true/>
 	<key>QuitWhenAllWindowsClosed</key>
@@ -1209,6 +1217,8 @@
 	<integer>8</integer>
 	<key>RightOption</key>
 	<integer>3</integer>
+	<key>SUAutomaticallyUpdate</key>
+	<false/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedURL</key>
@@ -1216,7 +1226,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2012-05-16T09:23:28Z</date>
+	<date>2012-06-25T07:33:36Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1239,6 +1249,8 @@
 	<integer>10</integer>
 	<key>TripleClickSelectsFullWrappedLines</key>
 	<false/>
+	<key>UKCrashReporterLastCrashReportDate</key>
+	<real>1325248000</real>
 	<key>URLHandlersByGuid</key>
 	<dict/>
 	<key>UseBorder</key>
