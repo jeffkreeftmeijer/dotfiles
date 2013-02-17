@@ -28,9 +28,6 @@
 [submodule "home/.vim/bundle/vim-unimpaired"]
 	path = home/.vim/bundle/vim-unimpaired
 	url = git://github.com/tpope/vim-unimpaired.git
-[submodule "home/.vim/bundle/vim-numbertoggle"]
-	path = home/.vim/bundle/vim-numbertoggle
-	url = git@github.com:jeffkreeftmeijer/vim-numbertoggle.git
 [submodule "home/.oh-my-zsh"]
 	path = home/.oh-my-zsh
 	url = git://github.com/robbyrussell/oh-my-zsh.git
@@ -46,3 +43,6 @@
 [submodule "home/.vim/bundle/vim-jst"]
 	path = home/.vim/bundle/vim-jst
 	url = git://github.com/briancollins/vim-jst.git
+[submodule "home/.vim/bundle/vim-numbertoggle"]
+	path = home/.vim/bundle/vim-numbertoggle
+	url = git://github.com/jeffkreeftmeijer/vim-numbertoggle.git
