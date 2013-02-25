@@ -1,6 +1,3 @@
-[submodule "home/.vim/bundle/syntastic"]
-	path = home/.vim/bundle/syntastic
-	url = git://github.com/scrooloose/syntastic.git
 [submodule "home/.vim/bundle/pathogen"]
 	path = home/.vim/bundle/pathogen
 	url = git://github.com/tpope/vim-pathogen.git
