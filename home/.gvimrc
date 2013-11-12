@@ -1,5 +1,5 @@
 " Font
-set guifont=Bitstream\ Vera\ Sans\ Mono:h13
+set guifont=inconsolata:h16
 set linespace=4
 
 " Start without the toolbar
