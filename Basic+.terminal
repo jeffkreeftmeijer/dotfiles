@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Bell</key>
+	<false/>
+	<key>BellBadge</key>
+	<false/>
+	<key>BellBounce</key>
+	<false/>
+	<key>Font</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGGBlYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
+	AAGGoKQHCBESVSRudWxs1AkKCwwNDg8QVk5TU2l6ZVhOU2ZGbGFnc1ZOU05hbWVWJGNs
+	YXNzI0AwAAAAAAAAEBCAAoADXxATSW5jb25zb2xhdGEtUmVndWxhctITFBUWWiRjbGFz
+	c25hbWVYJGNsYXNzZXNWTlNGb250ohUXWE5TT2JqZWN0XxAPTlNLZXllZEFyY2hpdmVy
+	0RobVHJvb3SAAQgRGiMtMjc8QktSW2JpcnR2eI6TnqeusbrMz9QAAAAAAAABAQAAAAAA
+	AAAcAAAAAAAAAAAAAAAAAAAA1g==
+	</data>
+	<key>FontAntialias</key>
+	<true/>
+	<key>FontHeightSpacing</key>
+	<real>1.25</real>
+	<key>ProfileCurrentVersion</key>
+	<real>2.04</real>
+	<key>VisualBell</key>
+	<false/>
+	<key>name</key>
+	<string>Basic+</string>
+	<key>type</key>
+	<string>Window Settings</string>
+</dict>
+</plist>
