@@ -16,13 +16,14 @@
 # * I turned off the (visual) bells, badges, and app icon bouncing.
 # 
 # That's all. I exported the [profile] and keep it [in my dotfiles] to make it
-# easy to set up. To use it, install Inconsolata and open `Basic+.terminal` in
+# easy to set up. To use it, [install Inconsolata] and open `Basic+.terminal` in
 # Terminal.app.
-# 
+#
 # [Inconsolata]: https://github.com/google/fonts/tree/master/ofl/inconsolata
 # [Menlo]: https://en.wikipedia.org/wiki/Menlo_(typeface)
 # [in my dotfiles]: https://github.com/jeffkreeftmeijer/dotfiles/blob/master/Basic%2B.terminal
 # [Inconsolata in 16pt with a line height of 1.25 in Terminal.app]: images/basic+.png
+# [Install Inconsolata]: https://github.com/jeffkreeftmeijer/dotfiles/blob/master/setup/inconsolata.sh
 
 osascript <<EOD
 tell application "Terminal"
