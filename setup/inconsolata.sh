@@ -1,1 +1,2 @@
-curl https://raw.githubusercontent.com/google/fonts/master/ofl/inconsolata/Inconsolata-Regular.ttf -o /Library/Fonts/Inconsolata-Regular.ttf
+brew tap caskroom/fonts
+brew cask install font-inconsolata
