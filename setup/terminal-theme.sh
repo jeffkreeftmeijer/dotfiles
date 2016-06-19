@@ -33,10 +33,8 @@ tell application "Terminal"
 
   set initialOpenedWindows to id of every window
 
-  do shell script "open 'Basic+.terminal'"
+  do shell script "open *.terminal"
   delay 1
-
-  set default settings to settings set "Basic+"
 
   set allOpenedWindows to id of every window
   repeat with windowID in allOpenedWindows
@@ -44,5 +42,12 @@ tell application "Terminal"
       close (every window whose id is windowID)
     end if
   end repeat
+end tell
+EOD
+
+osascript <<EOD
+tell application "Terminal"
+  set current settings of tabs of windows to settings set "Basic+"
+  set default settings to settings set "Basic+"
 end tell
 EOD
