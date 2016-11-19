@@ -12,6 +12,9 @@ defaults write com.apple.dock autohide -bool true
 defaults write com.apple.dock autohide-delay -float 0
 defaults write com.apple.dock autohide-time-modifier -float 0
 
+# Hide icons from Desktop
+defaults write com.apple.finder CreateDesktop -bool false
+
 # Show hidden files in Finder
 defaults write com.apple.finder AppleShowAllFiles -bool YES
 
