@@ -12,5 +12,8 @@ defaults write com.apple.dock autohide -bool true
 defaults write com.apple.dock autohide-delay -float 0
 defaults write com.apple.dock autohide-time-modifier -float 0
 
-# Restart the Dock
-killall Dock
+# Show hidden files in Finder
+defaults write com.apple.finder AppleShowAllFiles -bool YES
+
+# Restart the Dock and the Finder
+killall Dock Finder
