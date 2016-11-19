@@ -27,5 +27,9 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadCorner
 # Tap with two fingers to emulate right click
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
 
+# Remap caps lock to escape with Seil
+/Applications/Seil.app/Contents/Library/bin/seil set enable_capslock 1
+/Applications/Seil.app/Contents/Library/bin/seil set keycode_capslock 53
+
 # Restart the Dock and the Finder
 killall Dock Finder
