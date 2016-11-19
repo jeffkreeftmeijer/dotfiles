@@ -18,5 +18,14 @@ defaults write com.apple.finder CreateDesktop -bool false
 # Show hidden files in Finder
 defaults write com.apple.finder AppleShowAllFiles -bool YES
 
+# Tap to click
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+
+# Click trackpad corner to emulate right click
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadCornerSecondaryClick -bool true
+
+# Tap with two fingers to emulate right click
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
+
 # Restart the Dock and the Finder
 killall Dock Finder
