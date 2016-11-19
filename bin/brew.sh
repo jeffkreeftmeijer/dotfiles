@@ -1,2 +1,2 @@
 brew install neovim/neovim/neovim
-brew cask install wacom-bamboo-tablet slack
+brew cask install slack whatsapp wacom-bamboo-tablet
