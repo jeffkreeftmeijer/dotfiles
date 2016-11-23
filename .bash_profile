@@ -1,4 +1,5 @@
-eval "$(rbenv init -)"
+# PS1: "~/foo/bar/baz $ "
+export PS1="\w $ "
 
 # History control:
 # - ignorespace: lines which begin with a space character are not saved
@@ -10,3 +11,6 @@ export HISTCONTROL=ignorespace:ignoredups:erasedups
 # Unlimited history
 export HISTFILESIZE=
 export HISTSIZE=
+
+# rbenv
+eval "$(rbenv init -)"
