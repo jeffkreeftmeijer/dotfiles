@@ -1,4 +1,5 @@
-brew install erlang elixir rbenv tmux neovim/neovim/neovim
+brew install erlang elixir rbenv \
+	tmux neovim/neovim/neovim ag
 
 # Pow
 brew install pow
