@@ -18,5 +18,8 @@ shopt -s histappend
 # Use nvim as $EDITOR
 export EDITOR=nvim
 
+# Colorize ls by default
+alias ls='ls -G'
+
 # rbenv
 eval "$(rbenv init -)"
