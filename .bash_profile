@@ -12,6 +12,9 @@ export HISTCONTROL=ignorespace:ignoredups:erasedups
 export HISTFILESIZE=
 export HISTSIZE=
 
+# Append to history instead of overwriting
+shopt -s histappend
+
 # Use nvim as $EDITOR
 export EDITOR=nvim
 
