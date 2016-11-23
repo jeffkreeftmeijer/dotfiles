@@ -6,3 +6,7 @@ eval "$(rbenv init -)"
 # - erasedups: all previous lines matching the current line are removed before
 #   the new line is saved
 export HISTCONTROL=ignorespace:ignoredups:erasedups
+
+# Unlimited history
+export HISTFILESIZE=
+export HISTSIZE=
