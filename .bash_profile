@@ -12,5 +12,8 @@ export HISTCONTROL=ignorespace:ignoredups:erasedups
 export HISTFILESIZE=
 export HISTSIZE=
 
+# Use nvim as $EDITOR
+export EDITOR=nvim
+
 # rbenv
 eval "$(rbenv init -)"
