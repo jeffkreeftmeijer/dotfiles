@@ -31,5 +31,8 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightC
 /Applications/Seil.app/Contents/Library/bin/seil set enable_capslock 1
 /Applications/Seil.app/Contents/Library/bin/seil set keycode_capslock 53
 
-# Restart the Dock and the Finder
-killall Dock Finder
+# Enable the Develop menu and the Web Inspector in Safari
+defaults write com.apple.Safari IncludeDevelopMenu -bool true
+
+# Restart the Dock and Finder and quit Safari
+killall Dock Finder Safari
