@@ -1,5 +1,5 @@
 brew install erlang elixir rbenv \
-	tmux neovim/neovim/neovim ag
+             tmux neovim/neovim/neovim ag jpegoptim
 
 # Pow
 brew install pow
