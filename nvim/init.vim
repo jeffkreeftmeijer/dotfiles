@@ -6,6 +6,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'kchmck/vim-coffee-script'
 Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 colors dim
