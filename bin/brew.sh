@@ -16,3 +16,7 @@ pow --install-local
 
 sudo launchctl load -w /Library/LaunchDaemons/cx.pow.firewall.plist
 launchctl load -w ~/Library/LaunchAgents/cx.pow.powd.plist
+
+# Install pip and the Neovim Python client
+sudo easy_install pip
+pip install neovim --user
