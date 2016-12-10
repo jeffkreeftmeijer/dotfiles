@@ -1,4 +1,4 @@
-brew install erlang elixir rbenv \
+brew install erlang elixir rbenv rebar3 \
              tmux neovim/neovim/neovim ag jpegoptim postgresql pow \
 	     homebrew/versions/mongodb30 redis chromedriver heroku-toolbelt
 
