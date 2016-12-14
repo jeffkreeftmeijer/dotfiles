@@ -1,4 +1,5 @@
 call plug#begin('~/.vim/plugged')
+Plug 'elixir-lang/vim-elixir'
 Plug 'jeffkreeftmeijer/neovim-sensible'
 Plug 'jeffkreeftmeijer/vim-dim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
