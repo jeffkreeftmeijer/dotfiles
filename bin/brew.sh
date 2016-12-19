@@ -1,5 +1,6 @@
 brew install erlang elixir rbenv \
              tmux neovim/neovim/neovim ag jpegoptim postgresql pow \
+             reattach-to-user-namespace \
 	     homebrew/versions/mongodb30 redis chromedriver
 
 # Start Postgres, Redis and Chromedriver
