@@ -12,3 +12,8 @@ Plug 'tpope/vim-fugitive'
 call plug#end()
 
 colors dim
+
+" fzf.vim
+nnoremap <silent> <leader>t :Files<CR>
+nnoremap <silent> <leader>b :Buffers<CR>
+nnoremap <silent> <leader>a :Ag<CR>
