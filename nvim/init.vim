@@ -1,4 +1,5 @@
 call plug#begin('~/.vim/plugged')
+Plug 'christoomey/vim-tmux-navigator'
 Plug 'elixir-lang/vim-elixir'
 Plug 'jeffkreeftmeijer/neovim-sensible'
 Plug 'jeffkreeftmeijer/vim-dim'
@@ -17,3 +18,5 @@ colors dim
 nnoremap <silent> <leader>t :Files<CR>
 nnoremap <silent> <leader>b :Buffers<CR>
 nnoremap <silent> <leader>a :Ag<CR>
+
+nnoremap <silent> <BS> :TmuxNavigateLeft<cr>
