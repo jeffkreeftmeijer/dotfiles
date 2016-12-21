@@ -1,5 +1,7 @@
+source ~/.config/bash/git-prompt.sh/git-prompt.sh
+
 # PS1: "~/foo/bar/baz $ "
-export PS1="\w $ "
+export PS1='\w $(__git_ps1 "(%s) ")$ '
 
 # History control:
 # - ignorespace: lines which begin with a space character are not saved
