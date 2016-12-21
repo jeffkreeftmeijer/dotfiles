@@ -18,5 +18,3 @@ colors dim
 nnoremap <silent> <leader>t :Files<CR>
 nnoremap <silent> <leader>b :Buffers<CR>
 nnoremap <silent> <leader>a :Ag<CR>
-
-nnoremap <silent> <BS> :TmuxNavigateLeft<cr>
