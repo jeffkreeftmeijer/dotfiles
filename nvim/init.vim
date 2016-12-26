@@ -10,6 +10,7 @@ Plug 'kchmck/vim-coffee-script'
 Plug 'rust-lang/rust.vim'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-liquid'
 call plug#end()
 
 colors dim
