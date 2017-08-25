@@ -1,16 +1,13 @@
 call plug#begin('~/.vim/plugged')
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'elixir-lang/vim-elixir'
 Plug 'jeffkreeftmeijer/neovim-sensible'
 Plug 'jeffkreeftmeijer/vim-dim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/goyo.vim'
-Plug 'kchmck/vim-coffee-script'
-Plug 'rust-lang/rust.vim'
+Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-liquid'
 call plug#end()
 
 colors dim
