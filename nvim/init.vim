@@ -19,3 +19,11 @@ colors dim
 nnoremap <silent> <leader>t :Files<CR>
 nnoremap <silent> <leader>b :Buffers<CR>
 nnoremap <silent> <leader>a :Ag<CR>
+
+" tabs
+set expandtab
+set shiftwidth=2
+
+" list
+set list
+set listchars=tab:→→,trail:·
