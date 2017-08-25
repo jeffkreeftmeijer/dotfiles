@@ -16,9 +16,9 @@ call plug#end()
 colors dim
 
 " fzf.vim
-nnoremap <silent> <leader>t :Files<CR>
-nnoremap <silent> <leader>b :Buffers<CR>
-nnoremap <silent> <leader>a :Ag<CR>
+nnoremap <silent> ,t :Files<CR>
+nnoremap <silent> ,b :Buffers<CR>
+nnoremap <silent> ,a :Ag<CR>
 
 " tabs
 set expandtab
