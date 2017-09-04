@@ -17,11 +17,3 @@ colors dim
 nnoremap <silent> ,t :Files<CR>
 nnoremap <silent> ,b :Buffers<CR>
 nnoremap <silent> ,a :Ag<CR>
-
-" tabs
-set expandtab
-set shiftwidth=2
-
-" list
-set list
-set listchars=tab:→→,trail:·
