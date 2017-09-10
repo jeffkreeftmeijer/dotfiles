@@ -1,0 +1,5 @@
+[user]
+	name = Jeff Kreeftmeijer
+	email = jeffkreeftmeijer@gmail.com
+[core]
+	excludesfile = ~/.config/.gitignore
