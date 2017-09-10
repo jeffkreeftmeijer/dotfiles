@@ -3,3 +3,5 @@
 	email = jeffkreeftmeijer@gmail.com
 [core]
 	excludesfile = ~/.config/.gitignore
+[alias]
+	git = !git
