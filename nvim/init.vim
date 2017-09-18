@@ -13,6 +13,9 @@ call plug#end()
 
 colors dim
 
+" Enable mouse/trackpad scrolling
+set mouse=a
+
 " fzf.vim
 nnoremap <silent> ,t :Files<CR>
 nnoremap <silent> ,b :Buffers<CR>
