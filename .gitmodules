@@ -1,0 +1,30 @@
+[submodule "nvim/pack/plugins/start/vim-tmux-navigator"]
+	path = nvim/pack/plugins/start/vim-tmux-navigator
+	url = git@github.com:christoomey/vim-tmux-navigator.git
+[submodule "nvim/pack/plugins/start/neovim-sensible"]
+	path = nvim/pack/plugins/start/neovim-sensible
+	url = git@github.com:jeffkreeftmeijer/neovim-sensible.git
+[submodule "nvim/pack/plugins/start/vim-dim"]
+	path = nvim/pack/plugins/start/vim-dim
+	url = git@github.com:jeffkreeftmeijer/vim-dim.git
+[submodule "nvim/pack/plugins/start/vim-numbertoggle"]
+	path = nvim/pack/plugins/start/vim-numbertoggle
+	url = git@github.com:jeffkreeftmeijer/vim-numbertoggle.git
+[submodule "nvim/pack/plugins/start/fzf.vim"]
+	path = nvim/pack/plugins/start/fzf.vim
+	url = git@github.com:junegunn/fzf.vim.git
+[submodule "nvim/pack/plugins/start/goyo.vim"]
+	path = nvim/pack/plugins/start/goyo.vim
+	url = git@github.com:junegunn/goyo.vim.git
+[submodule "nvim/pack/plugins/start/vim-polyglot"]
+	path = nvim/pack/plugins/start/vim-polyglot
+	url = git@github.com:sheerun/vim-polyglot.git
+[submodule "nvim/pack/plugins/start/vim-commentary"]
+	path = nvim/pack/plugins/start/vim-commentary
+	url = git@github.com:tpope/vim-commentary.git
+[submodule "nvim/pack/plugins/start/vim-fugitive"]
+	path = nvim/pack/plugins/start/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive.git
+[submodule "nvim/pack/plugins/start/ale"]
+	path = nvim/pack/plugins/start/ale
+	url = git@github.com:w0rp/ale.git
