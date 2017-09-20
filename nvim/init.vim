@@ -1,4 +1,5 @@
 colors dim
+set bg=dark
 
 " Enable mouse/trackpad scrolling
 set mouse=a
