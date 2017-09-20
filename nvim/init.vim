@@ -1,9 +1,6 @@
 colors dim
 set bg=dark
 
-" Enable mouse/trackpad scrolling
-set mouse=a
-
 " fzf.vim
 set rtp+=/usr/local/opt/fzf
 nnoremap <silent> ,t :Files<CR>
