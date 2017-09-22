@@ -31,3 +31,6 @@
 [submodule "nvim/pack/plugins/start/vim-rhubarb"]
 	path = nvim/pack/plugins/start/vim-rhubarb
 	url = git@github.com:tpope/vim-rhubarb.git
+[submodule "nvim/pack/plugins/start/deoplete.nvim"]
+	path = nvim/pack/plugins/start/deoplete.nvim
+	url = git@github.com:Shougo/deoplete.nvim.git
