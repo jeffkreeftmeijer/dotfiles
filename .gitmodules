@@ -34,3 +34,6 @@
 [submodule "nvim/pack/plugins/start/deoplete.nvim"]
 	path = nvim/pack/plugins/start/deoplete.nvim
 	url = git@github.com:Shougo/deoplete.nvim.git
+[submodule "nvim/pack/plugins/start/alchemist.vim"]
+	path = nvim/pack/plugins/start/alchemist.vim
+	url = git@github.com:slashmili/alchemist.vim
