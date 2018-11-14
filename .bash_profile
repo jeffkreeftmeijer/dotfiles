@@ -17,6 +17,9 @@ export HISTSIZE=
 # Append to history instead of overwriting
 shopt -s histappend
 
+# Write and read history after every command
+export PROMPT_COMMAND="history -a; history -n;"
+
 # Use nvim as $EDITOR
 export EDITOR=nvim
 
