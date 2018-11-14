@@ -40,3 +40,9 @@
 [submodule "nvim/pack/plugins/tmux-yank"]
 	path = nvim/pack/plugins/tmux-yank
 	url = git@github.com:tmux-plugins/tmux-yank.git
+[submodule ".tmux/plugins/tmux-resurrect"]
+	path = .tmux/plugins/tmux-resurrect
+	url = git@github.com:tmux-plugins/tmux-resurrect.git
+[submodule ".tmux/plugins/tmux-continuum"]
+	path = .tmux/plugins/tmux-continuum
+	url = git@github.com:tmux-plugins/tmux-continuum.git
