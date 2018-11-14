@@ -37,3 +37,6 @@
 [submodule "nvim/pack/plugins/start/alchemist.vim"]
 	path = nvim/pack/plugins/start/alchemist.vim
 	url = git@github.com:slashmili/alchemist.vim
+[submodule "nvim/pack/plugins/tmux-yank"]
+	path = nvim/pack/plugins/tmux-yank
+	url = git@github.com:tmux-plugins/tmux-yank.git
