@@ -25,3 +25,7 @@ export EDITOR=nvim
 
 # Colorize ls by default
 alias ls='ls -G'
+
+# asdf
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
