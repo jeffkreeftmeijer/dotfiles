@@ -11,7 +11,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(package-selected-packages (quote (evil-visual-mark-mode))))
+ '(package-selected-packages (quote (use-package evil-visual-mark-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -19,9 +19,20 @@
  ;; If there is more than one, they won't work right.
  )
 
+;; use-package
+(unless (package-installed-p 'use-package)
+  (package-refresh-contents)
+  (package-install 'use-package))
+
+(eval-when-compile
+  (require 'use-package))
+
 ;; evil mode
-(require 'evil)
-(evil-mode t)
+(use-package evil
+  :ensure t
+  :config
+  (evil-mode 1)
+  )
 
 ;; pbcopy & pbpaste (https://gist.github.com/the-kenny/267162)
 (defun copy-from-osx ()
