@@ -11,6 +11,9 @@ setopt SHARE_HISTORY
 setopt HIST_IGNORE_ALL_DUPS
 setopt HIST_IGNORE_SPACE
 
+# Use nvim as $EDITOR
+export EDITOR=nvim
+
 # Packages
 source <(antibody init)
 antibody bundle < ~/.config/.zsh_plugins.txt
