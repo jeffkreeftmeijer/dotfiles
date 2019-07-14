@@ -10,3 +10,11 @@ SAVEHIST=10000
 setopt SHARE_HISTORY
 setopt HIST_IGNORE_ALL_DUPS
 setopt HIST_IGNORE_SPACE
+
+# Packages
+source <(antibody init)
+antibody bundle < ~/.config/.zsh_plugins.txt
+
+# Bind up and down arrows to history substring search
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
