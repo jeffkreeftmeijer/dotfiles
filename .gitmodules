@@ -43,3 +43,45 @@
 [submodule ".tmux/plugins/tmux-continuum"]
 	path = .tmux/plugins/tmux-continuum
 	url = git@github.com:tmux-plugins/tmux-continuum.git
+[submodule "nvim/pack/plugins/start/vim-surround"]
+	path = nvim/pack/plugins/start/vim-surround
+	url = git@github.com:tpope/vim-surround.git
+[submodule "nvim/pack/plugins/start/vim-test"]
+	path = nvim/pack/plugins/start/vim-test
+	url = git@github.com:janko-m/vim-test.git
+[submodule "nvim/pack/plugins/start/tslime.vim"]
+	path = nvim/pack/plugins/start/tslime.vim
+	url = git@github.com:jgdavey/tslime.vim.git
+[submodule "nvim/pack/plugins/start/dracula"]
+	path = nvim/pack/plugins/start/dracula
+	url = git@github.com:dracula/vim.git
+[submodule "nvim/pack/plugins/start/vimux"]
+	path = nvim/pack/plugins/start/vimux
+	url = git@github.com:benmills/vimux.git
+[submodule "nvim/pack/plugins/start/vim-tmux-runner"]
+	path = nvim/pack/plugins/start/vim-tmux-runner
+	url = git@github.com:christoomey/vim-tmux-runner.git
+[submodule "nvim/pack/plugins/start/neosnippet.vim"]
+	path = nvim/pack/plugins/start/neosnippet.vim
+	url = git@github.com:Shougo/neosnippet.vim.git
+[submodule "nvim/pack/plugins/start/vim-snippets"]
+	path = nvim/pack/plugins/start/vim-snippets
+	url = git@github.com:honza/vim-snippets.git
+[submodule "nvim/pack/plugins/start/vim-mix-format"]
+	path = nvim/pack/plugins/start/vim-mix-format
+	url = git@github.com:mhinz/vim-mix-format.git
+[submodule "nvim/pack/plugins/start/vim-noctu"]
+	path = nvim/pack/plugins/start/vim-noctu
+	url = git@github.com:noahfrederick/vim-noctu.git
+[submodule "nvim/pack/plugins/start/vim-mucomplete"]
+	path = nvim/pack/plugins/start/vim-mucomplete
+	url = git@github.com:lifepillar/vim-mucomplete.git
+[submodule "nvim/pack/plugins/start/vim-auto-save"]
+	path = nvim/pack/plugins/start/vim-auto-save
+	url = git@github.com:vim-scripts/vim-auto-save.git
+[submodule "nvim/pack/plugins/start/ultisnips"]
+	path = nvim/pack/plugins/start/ultisnips
+	url = git@github.com:SirVer/ultisnips.git
+[submodule "git-prompt.sh"]
+	path = git-prompt.sh
+	url = https://github.com/jeffkreeftmeijer/git-prompt.sh.git
