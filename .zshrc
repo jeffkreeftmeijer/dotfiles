@@ -21,3 +21,6 @@ antibody bundle < ~/.config/.zsh_plugins.txt
 # Bind up and down arrows to history substring search
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
+
+# fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
