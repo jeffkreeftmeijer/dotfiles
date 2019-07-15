@@ -16,7 +16,9 @@ export EDITOR=nvim
 
 # Packages
 source <(antibody init)
-antibody bundle < ~/.config/.zsh_plugins.txt
+antibody bundle zsh-users/zsh-syntax-highlighting
+antibody bundle zsh-users/zsh-autosuggestions
+antibody bundle zsh-users/zsh-history-substring-search
 
 # Bind up and down arrows to history substring search
 bindkey '^[[A' history-substring-search-up
